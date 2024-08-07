@@ -1,0 +1,40 @@
+@startuml
+database "DB"
+
+"Welcome message" -->[perfil manager]
+[perfil manager] -> [load player]
+[perfil manager] -> [new player]
+
+[perfil manager] -- [set up manager]
+
+[set up manager] <-> [see stats]
+[set up manager] -> [load game]
+[set up manager] -> [new game]
+
+[load game] --> [partida Db]
+[new game] --> configuration
+configuration )--> [partida Db]
+[partida Db] <- "DB"
+[partida Db] --> [start message]
+
+[start message] --> [turnero-userTurn]
+[turnero-userTurn]-->[turnero-botTurn]
+
+control "Alguien Gano?"
+
+[turnero-botTurn] --> "Alguien Gano?"
+
+"Alguien Gano?" -->[print status]:no
+
+[turnero-userTurn] <- [print status]
+
+ "Alguien Gano?" ---> [show stats]:si
+
+control "Again?"
+
+[show stats] -> "Again?"
+
+[set up manager] <-- "Again?":si
+
+"Again?" --> end:no
+@enduml

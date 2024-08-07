@@ -1,0 +1,18 @@
+@startuml
+[user] -( input
+input )- [Handler]
+
+[Handler] --( infoDada
+infoDada -- [clases]
+[Handler] -- infoPedida
+infoPedida )-- [clases]
+
+package "handler options" {
+[1. rollear dados]
+[2. vender propiedad]
+[3. mejorar propiedad]
+[0. Exit]
+}
+
+
+@enduml

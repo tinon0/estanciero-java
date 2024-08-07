@@ -1,0 +1,30 @@
+@startuml
+
+[game Start] --> ordenarPlayer
+
+ordenarPlayer --> [turnero]
+
+[tablero] <->generaAccion
+[tablero] -->[turnero]
+
+[turnero] ->[gano alguien?]
+[gano alguien?] --> [no]
+
+[no] --> [roll dice]
+
+[roll dice] --> [tablero]
+[gano alguien?] --( si
+si )--> [game end]
+package generaAccion {
+[propiedad] --> comprada
+comprada -- pagar
+[propiedad]--> noComprada
+noComprada --comprar
+
+[Activos]
+[Activos]--> noComprada
+[Activos]--> comprada
+[suerte o destino]
+[especiales]
+}
+@enduml

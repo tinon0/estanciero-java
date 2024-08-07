@@ -1,0 +1,708 @@
+{
+  "celdas": [
+    {
+      "id_celda": 0,
+      "tipo_celda": 5
+    },
+    {
+      "id_celda": 1,
+      "tipo_celda": 1
+    },
+    {
+      "id_celda": 2,
+      "tipo_celda": 1
+    },
+    {
+      "id_celda": 3,
+      "tipo_celda": 1
+    },
+    {
+      "id_celda": 4,
+      "tipo_celda": 2
+    },
+    {
+      "id_celda": 5,
+      "tipo_celda": 1
+    },
+    {
+      "id_celda": 6,
+      "tipo_celda": 1
+    },
+    {
+      "id_celda": 7,
+      "tipo_celda": 4
+    },
+    {
+      "id_celda": 8,
+      "tipo_celda": 8
+    },
+    {
+      "id_celda": 9,
+      "tipo_celda": 1
+    },
+    {
+      "id_celda": 10,
+      "tipo_celda": 3
+    },
+    {
+      "id_celda": 11,
+      "tipo_celda": 1
+    },
+    {
+      "id_celda": 12,
+      "tipo_celda": 7
+    },
+    {
+      "id_celda": 13,
+      "tipo_celda": 1
+    },
+    {
+      "id_celda": 14,
+      "tipo_celda": 9
+    },
+    {
+      "id_celda": 15,
+      "tipo_celda": 2
+    },
+    {
+      "id_celda": 16,
+      "tipo_celda": 8
+    },
+    {
+      "id_celda": 17,
+      "tipo_celda": 1
+    },
+    {
+      "id_celda": 18,
+      "tipo_celda": 7
+    },
+    {
+      "id_celda": 19,
+      "tipo_celda": 1
+    },
+    {
+      "id_celda": 20,
+      "tipo_celda": 1
+    },
+    {
+      "id_celda": 21,
+      "tipo_celda": 12
+    },
+    {
+      "id_celda": 22,
+      "tipo_celda": 7
+    },
+    {
+      "id_celda": 23,
+      "tipo_celda": 1
+    },
+    {
+      "id_celda": 24,
+      "tipo_celda": 1
+    },
+    {
+      "id_celda": 25,
+      "tipo_celda": 3
+    },
+    {
+      "id_celda": 26,
+      "tipo_celda": 1
+    },
+    {
+      "id_celda": 27,
+      "tipo_celda": 7
+    },
+    {
+      "id_celda": 28,
+      "tipo_celda": 11
+    },
+    {
+      "id_celda": 29,
+      "tipo_celda": 1
+    },
+    {
+      "id_celda": 30,
+      "tipo_celda": 1
+    },
+    {
+      "id_celda": 31,
+      "tipo_celda": 6
+    },
+    {
+      "id_celda": 32,
+      "tipo_celda": 1
+    },
+    {
+      "id_celda": 33,
+      "tipo_celda": 1
+    },
+    {
+      "id_celda": 34,
+      "tipo_celda": 1
+    },
+    {
+      "id_celda": 35,
+      "tipo_celda": 10
+    },
+    {
+      "id_celda": 36,
+      "tipo_celda": 2
+    },
+    {
+      "id_celda": 37,
+      "tipo_celda": 1
+    },
+    {
+      "id_celda": 38,
+      "tipo_celda": 3
+    },
+    {
+      "id_celda": 39,
+      "tipo_celda": 1
+    },
+    {
+      "id_celda": 40,
+      "tipo_celda": 1
+    },
+    {
+      "id_celda": 41,
+      "tipo_celda": 6
+    }
+  ],
+  "posesiones": [
+    {
+      "nombre": "Compañia Petrolera",
+      "precio_compra": 3800,
+      "celda": 8
+    },
+    {
+      "nombre": "Ferrocarril Gral. Belgrano",
+      "precio_compra": 1000,
+      "celda": 12
+    },
+    {
+      "nombre": "Bodega",
+      "precio_compra": 3800,
+      "celda": 16
+    },
+    {
+      "nombre": "Ferrocarril Gral. San Martin",
+      "precio_compra": 1000,
+      "celda": 18
+    },
+    {
+      "nombre": "Ferrocarril Gral. B. Mitre",
+      "precio_compra": 1000,
+      "celda": 22
+    },
+    {
+      "nombre": "Ferrocarril Gral. Urquiza",
+      "precio_compra": 3600,
+      "celda": 27
+    }
+  ],
+  "propiedades": [
+    {
+      "nombre": "Zona Sur",
+      "provincia": "Formosa",
+      "precio_compra": 1000,
+      "precio_mejora": 1000,
+      "alquiler_base": 40,
+      "alquiler_1chacra": 200,
+      "alquiler_2chacra": 600,
+      "alquiler_3chacra": 1700,
+      "alquiler_4chacra": 3000,
+      "alquiler_1estancia": 4750,
+      "valor_hipotecario": 500,
+      "celda": 1
+    },
+    {
+      "nombre": "Zona Centro",
+      "provincia": "Formosa",
+      "precio_compra": 1000,
+      "precio_mejora": 1000,
+      "alquiler_base": 40,
+      "alquiler_1chacra": 200,
+      "alquiler_2chacra": 600,
+      "alquiler_3chacra": 1700,
+      "alquiler_4chacra": 3000,
+      "alquiler_1estancia": 4750,
+      "valor_hipotecario": 500,
+      "celda": 2
+    },
+    {
+      "nombre": "Zona Norte",
+      "provincia": "Formosa",
+      "precio_compra": 1200,
+      "precio_mejora": 1000,
+      "alquiler_base": 80,
+      "alquiler_1chacra": 400,
+      "alquiler_2chacra": 800,
+      "alquiler_3chacra": 3400,
+      "alquiler_4chacra": 6000,
+      "alquiler_1estancia": 9500,
+      "valor_hipotecario": 600,
+      "celda": 3
+    },
+    {
+      "nombre": "Zona Sur",
+      "provincia": "Rio Negro",
+      "precio_compra": 2000,
+      "precio_mejora": 1000,
+      "alquiler_base": 110,
+      "alquiler_1chacra": 570,
+      "alquiler_2chacra": 1700,
+      "alquiler_3chacra": 5150,
+      "alquiler_4chacra": 7600,
+      "alquiler_1estancia": 9500,
+      "valor_hipotecario": 1000,
+      "celda": 5
+    },
+    {
+      "nombre": "Zona Norte",
+      "provincia": "Rio Negro",
+      "precio_compra": 2200,
+      "precio_mejora": 1000,
+      "alquiler_base": 150,
+      "alquiler_1chacra": 750,
+      "alquiler_2chacra": 2000,
+      "alquiler_3chacra": 5700,
+      "alquiler_4chacra": 8500,
+      "alquiler_1estancia": 11500,
+      "valor_hipotecario": 1100,
+      "celda": 6
+    },
+    {
+      "nombre": "Zona Sur",
+      "provincia": "Salta",
+      "precio_compra": 2600,
+      "precio_mejora": 1500,
+      "alquiler_base": 200,
+      "alquiler_1chacra": 1000,
+      "alquiler_2chacra": 2800,
+      "alquiler_3chacra": 8500,
+      "alquiler_4chacra": 12000,
+      "alquiler_1estancia": 14200,
+      "valor_hipotecario": 1300,
+      "celda": 9
+    },
+    {
+      "nombre": "Zona Centro",
+      "provincia": "Salta",
+      "precio_compra": 2600,
+      "precio_mejora": 1500,
+      "alquiler_base": 200,
+      "alquiler_1chacra": 1000,
+      "alquiler_2chacra": 2800,
+      "alquiler_3chacra": 8500,
+      "alquiler_4chacra": 12000,
+      "alquiler_1estancia": 14200,
+      "valor_hipotecario": 1300,
+      "celda": 11
+    },
+    {
+      "nombre": "Zona Norte",
+      "provincia": "Salta",
+      "precio_compra": 3000,
+      "precio_mejora": 1500,
+      "alquiler_base": 230,
+      "alquiler_1chacra": 1150,
+      "alquiler_2chacra": 3400,
+      "alquiler_3chacra": 9500,
+      "alquiler_4chacra": 1300,
+      "alquiler_1estancia": 17000,
+      "valor_hipotecario": 1500,
+      "celda": 13
+    },
+    {
+      "nombre": "Zona Sur",
+      "provincia": "Mendoza",
+      "precio_compra": 3400,
+      "precio_mejora": 2000,
+      "alquiler_base": 250,
+      "alquiler_1chacra": 1350,
+      "alquiler_2chacra": 3800,
+      "alquiler_3chacra": 10500,
+      "alquiler_4chacra": 14200,
+      "alquiler_1estancia": 18000,
+      "valor_hipotecario": 1700,
+      "celda": 17
+    },
+    {
+      "nombre": "Zona Centro",
+      "provincia": "Mendoza",
+      "precio_compra": 3400,
+      "precio_mejora": 2000,
+      "alquiler_base": 250,
+      "alquiler_1chacra": 1350,
+      "alquiler_2chacra": 3800,
+      "alquiler_3chacra": 10500,
+      "alquiler_4chacra": 14200,
+      "alquiler_1estancia": 18000,
+      "valor_hipotecario": 1700,
+      "celda": 19
+    },
+    {
+      "nombre": "Zona Norte",
+      "provincia": "Mendoza",
+      "precio_compra": 3800,
+      "precio_mejora": 2000,
+      "alquiler_base": 300,
+      "alquiler_1chacra": 1500,
+      "alquiler_2chacra": 4200,
+      "alquiler_3chacra": 11500,
+      "alquiler_4chacra": 15000,
+      "alquiler_1estancia": 19000,
+      "valor_hipotecario": 1900,
+      "celda": 20
+    },
+    {
+      "nombre": "Zona Sur",
+      "provincia": "Santa Fe",
+      "precio_compra": 4200,
+      "precio_mejora": 2500,
+      "alquiler_base": 350,
+      "alquiler_1chacra": 1700,
+      "alquiler_2chacra": 4750,
+      "alquiler_3chacra": 13000,
+      "alquiler_4chacra": 16000,
+      "alquiler_1estancia": 20000,
+      "valor_hipotecario": 2100,
+      "celda": 23
+    },
+    {
+      "nombre": "Zona Centro",
+      "provincia": "Santa Fe",
+      "precio_compra": 4200,
+      "precio_mejora": 2500,
+      "alquiler_base": 350,
+      "alquiler_1chacra": 1700,
+      "alquiler_2chacra": 4750,
+      "alquiler_3chacra": 13000,
+      "alquiler_4chacra": 16000,
+      "alquiler_1estancia": 20000,
+      "valor_hipotecario": 2100,
+      "celda": 24
+    },
+    {
+      "nombre": "Zona Norte",
+      "provincia": "Santa Fe",
+      "precio_compra": 4600,
+      "precio_mejora": 2500,
+      "alquiler_base": 400,
+      "alquiler_1chacra": 2000,
+      "alquiler_2chacra": 5750,
+      "alquiler_3chacra": 14000,
+      "alquiler_4chacra": 17000,
+      "alquiler_1estancia": 21000,
+      "valor_hipotecario": 2300,
+      "celda": 26
+    },
+    {
+      "nombre": "Zona Sur",
+      "provincia": "Tucuman",
+      "precio_compra": 5000,
+      "precio_mejora": 3000,
+      "alquiler_base": 400,
+      "alquiler_1chacra": 2200,
+      "alquiler_2chacra": 6000,
+      "alquiler_3chacra": 15000,
+      "alquiler_4chacra": 18000,
+      "alquiler_1estancia": 21000,
+      "valor_hipotecario": 2500,
+      "celda": 29
+    },
+    {
+      "nombre": "Zona Norte",
+      "provincia": "Tucuman",
+      "precio_compra": 5400,
+      "precio_mejora": 3000,
+      "alquiler_base": 450,
+      "alquiler_1chacra": 2400,
+      "alquiler_2chacra": 6800,
+      "alquiler_3chacra": 16000,
+      "alquiler_4chacra": 19500,
+      "alquiler_1estancia": 23000,
+      "valor_hipotecario": 2700,
+      "celda": 30
+    },
+    {
+      "nombre": "Zona Sur",
+      "provincia": "Cordoba",
+      "precio_compra": 6000,
+      "precio_mejora": 3000,
+      "alquiler_base": 500,
+      "alquiler_1chacra": 2500,
+      "alquiler_2chacra": 6500,
+      "alquiler_3chacra": 17000,
+      "alquiler_4chacra": 2100,
+      "alquiler_1estancia": 24000,
+      "valor_hipotecario": 3000,
+      "celda": 32
+    },
+    {
+      "nombre": "Zona Centro",
+      "provincia": "Cordoba",
+      "precio_compra": 6000,
+      "precio_mejora": 3000,
+      "alquiler_base": 450,
+      "alquiler_1chacra": 2400,
+      "alquiler_2chacra": 6800,
+      "alquiler_3chacra": 16000,
+      "alquiler_4chacra": 19500,
+      "alquiler_1estancia": 23000,
+      "valor_hipotecario": 3000,
+      "celda": 33
+    },
+    {
+      "nombre": "Zona Norte",
+      "provincia": "Cordoba",
+      "precio_compra": 6400,
+      "precio_mejora": 3000,
+      "alquiler_base": 550,
+      "alquiler_1chacra": 2850,
+      "alquiler_2chacra": 8500,
+      "alquiler_3chacra": 19000,
+      "alquiler_4chacra": 2300,
+      "alquiler_1estancia": 27000,
+      "valor_hipotecario": 3200,
+      "celda": 34
+    },
+    {
+      "nombre": "Zona Sur",
+      "provincia": "Bs. Aires",
+      "precio_compra": 7000,
+      "precio_mejora": 4000,
+      "alquiler_base": 650,
+      "alquiler_1chacra": 3300,
+      "alquiler_2chacra": 95000,
+      "alquiler_3chacra": 22000,
+      "alquiler_4chacra": 25000,
+      "alquiler_1estancia": 30000,
+      "valor_hipotecario": 3500,
+      "celda": 37
+    },
+    {
+      "nombre": "Zona Centro",
+      "provincia": "Bs. Aires",
+      "precio_compra": 7000,
+      "precio_mejora": 4000,
+      "alquiler_base": 650,
+      "alquiler_1chacra": 3300,
+      "alquiler_2chacra": 95000,
+      "alquiler_3chacra": 22000,
+      "alquiler_4chacra": 25000,
+      "alquiler_1estancia": 30000,
+      "valor_hipotecario": 3500,
+      "celda": 39
+    },
+    {
+      "nombre": "Zona Norte",
+      "provincia": "Bs. Aires",
+      "precio_compra": 7400,
+      "precio_mejora": 4000,
+      "alquiler_base": 1000,
+      "alquiler_1chacra": 4000,
+      "alquiler_2chacra": 12000,
+      "alquiler_3chacra": 26000,
+      "alquiler_4chacra": 31000,
+      "alquiler_1estancia": 36000,
+      "valor_hipotecario": 3700,
+      "celda": 40
+    }
+  ],
+  "tarjetas": [
+    {
+      "mensaje": "Con esta tarjeta sale usted de la comisaria. Conservela hasta utilizarla o venderla",
+      "effecto_modificador": 0,
+      "id_tipo_efecto": 5,
+      "tipo_tarjeta": "Destino"
+    },
+    {
+      "mensaje": "Marche preso directamente",
+      "effecto_modificador": 14,
+      "id_tipo_efecto": 4,
+      "tipo_tarjeta": "Destino"
+    },
+    {
+      "mensaje": "Siga hasta la salida",
+      "effecto_modificador": 0,
+      "id_tipo_efecto": 2,
+      "tipo_tarjeta": "Destino"
+    },
+    {
+      "mensaje": "Gastos de Farmacia. Pague 1000",
+      "effecto_modificador": 1000,
+      "id_tipo_efecto": 1,
+      "tipo_tarjeta": "Destino"
+    },
+    {
+      "mensaje": "Gastos de Farmacia. Pague 1000",
+      "effecto_modificador": 1000,
+      "id_tipo_efecto": 1,
+      "tipo_tarjeta": "Destino"
+    },
+    {
+      "mensaje": "Pague su poliza de seguro con 1000",
+      "effecto_modificador": 1000,
+      "id_tipo_efecto": 1,
+      "tipo_tarjeta": "Destino"
+    },
+    {
+      "mensaje": "Pague 200 de multa o levante una tarjeta de SUERTE",
+      "effecto_modificador": 200,
+      "id_tipo_efecto": 6,
+      "tipo_tarjeta": "Destino"
+    },
+    {
+      "mensaje": "Ha obtenido un segundo premio de belleza. Cobre 2000",
+      "effecto_modificador": 2000,
+      "id_tipo_efecto": 3,
+      "tipo_tarjeta": "Destino"
+    },
+    {
+      "mensaje": "Es su cumpleaños. Cobre 200 de cada uno de sus jugadores",
+      "effecto_modificador": 200,
+      "id_tipo_efecto": 3,
+      "tipo_tarjeta": "Destino"
+    },
+    {
+      "mensaje": "Devolucion de impuesto. Cobre 400",
+      "effecto_modificador": 400,
+      "id_tipo_efecto": 3,
+      "tipo_tarjeta": "Destino"
+    },
+    {
+      "mensaje": "Por venta de acciones. cobre 1000",
+      "effecto_modificador": 1000,
+      "id_tipo_efecto": 3,
+      "tipo_tarjeta": "Destino"
+    },
+    {
+      "mensaje": "Error en los calculos del Banco. Cobre 4000",
+      "effecto_modificador": 4000,
+      "id_tipo_efecto": 3,
+      "tipo_tarjeta": "Destino"
+    },
+    {
+      "mensaje": "ha ganado un concurso agricola. Cobre 2000",
+      "effecto_modificador": 2000,
+      "id_tipo_efecto": 3,
+      "tipo_tarjeta": "Destino"
+    },
+    {
+      "mensaje": "Ha ganado un concurso ganadero. Cobre 2000",
+      "effecto_modificador": 2000,
+      "id_tipo_efecto": 3,
+      "tipo_tarjeta": "Destino"
+    },
+    {
+      "mensaje": "5% de interes sobre cedulas hipotecarias. Cobre 500",
+      "effecto_modificador": 500,
+      "id_tipo_efecto": 3,
+      "tipo_tarjeta": "Destino"
+    },
+    {
+      "mensaje": "Hereda 2000",
+      "effecto_modificador": 2000,
+      "id_tipo_efecto": 3,
+      "tipo_tarjeta": "Destino"
+    },
+    {
+      "mensaje": "Habeas Corpus concedido. Con esta tarjeta sale Usted gratuitamente de la Comisaria. Conservela o vendala",
+      "effecto_modificador": 0,
+      "id_tipo_efecto": 5,
+      "tipo_tarjeta": "Suerte"
+    },
+    {
+      "mensaje": "Marche preso directamente",
+      "effecto_modificador": 14,
+      "id_tipo_efecto": 4,
+      "tipo_tarjeta": "Suerte"
+    },
+    {
+      "mensaje": "Cobre 1000 por intereses bancarios",
+      "effecto_modificador": 1000,
+      "id_tipo_efecto": 3,
+      "tipo_tarjeta": "Suerte"
+    },
+    {
+      "mensaje": "Ha ganado la grande. Cobre 10000",
+      "effecto_modificador": 10000,
+      "id_tipo_efecto": 3,
+      "tipo_tarjeta": "Suerte"
+    },
+    {
+      "mensaje": "Gano en las carreras. Cobre 3000",
+      "effecto_modificador": 3000,
+      "id_tipo_efecto": 3,
+      "tipo_tarjeta": "Suerte"
+    },
+    {
+      "mensaje": "Multa caminera. Pague 400",
+      "effecto_modificador": 400,
+      "id_tipo_efecto": 1,
+      "tipo_tarjeta": "Suerte"
+    },
+    {
+      "mensaje": "Sus propiedades tienen que ser reparadas. Pague al Banco 500 por cada chacra y 2500 por cada estancia",
+      "effecto_modificador": 2500500,
+      "id_tipo_efecto": 1,
+      "tipo_tarjeta": "Suerte"
+    },
+    {
+      "mensaje": "Multa por exceso de velocidad. Pague 300",
+      "effecto_modificador": 300,
+      "id_tipo_efecto": 1,
+      "tipo_tarjeta": "Suerte"
+    },
+    {
+      "mensaje": "Por compra de semilla pague al Banco 800 por cada chacra. 4000 por cada estancia",
+      "effecto_modificador": 4000800,
+      "id_tipo_efecto": 1,
+      "tipo_tarjeta": "Suerte"
+    },
+    {
+      "mensaje": "Pague 3000 por gastos colegiales",
+      "effecto_modificador": 3000,
+      "id_tipo_efecto": 1,
+      "tipo_tarjeta": "Suerte"
+    },
+    {
+      "mensaje": "Siga hasta la salida",
+      "effecto_modificador": 0,
+      "id_tipo_efecto": 2,
+      "tipo_tarjeta": "Suerte"
+    },
+    {
+      "mensaje": "Vuelva tres pasos atras",
+      "effecto_modificador": 3,
+      "id_tipo_efecto": 2,
+      "tipo_tarjeta": "Suerte"
+    },
+    {
+      "mensaje": "Siga hasta Santa Fe Zona Norte. Si pasa por la salida Cobre 5000",
+      "effecto_modificador": 26,
+      "id_tipo_efecto": 2,
+      "tipo_tarjeta": "Suerte"
+    },
+    {
+      "mensaje": "Haga un paseo hasta la Bodega. Si pasa por la salida cobre 5000",
+      "effecto_modificador": 16,
+      "id_tipo_efecto": 2,
+      "tipo_tarjeta": "Suerte"
+    },
+    {
+      "mensaje": "Siga hasta Salta Zona Norte. Si pasa por la salida cobre 5000",
+      "effecto_modificador": 13,
+      "id_tipo_efecto": 2,
+      "tipo_tarjeta": "Suerte"
+    },
+    {
+      "mensaje": "Siga hasta Buenos Aires, Zona Norte",
+      "effecto_modificador": 40,
+      "id_tipo_efecto": 2,
+      "tipo_tarjeta": "Suerte"
+    }
+  ]
+}
